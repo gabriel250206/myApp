@@ -6,6 +6,7 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+
 }
 
 #container strong {
@@ -26,8 +27,31 @@
   text-decoration: none;
 }
 
-.imagenes{
-  height: 100px;
-  width: 150px;
-  display:flex;
+.imagenes {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  border:solid;
+  border-color: white;
+  background-color: cadetblue;
 }
+
+.imagenes img{
+  width: 150px;
+  height: 100px;
+  margin-right: 1rem;
+}
+
+.imagenes p{
+  margin: 0;
+  font-size: 1rem;
+}
+
+ion-list{
+  background-color: aquamarine;
+}
+
+ion-title{
+  background-color: rgb(175, 208, 208)
+}
+

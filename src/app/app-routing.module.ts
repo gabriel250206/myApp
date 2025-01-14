@@ -7,6 +7,7 @@ import { Noticia4Component } from './noticia4/noticia4.component';
 import { Noticia5Component } from './noticia5/noticia5.component';
 import { Noticia6Component } from './noticia6/noticia6.component';
 
+
 const routes: Routes = [
   {
     path: 'home',
@@ -49,6 +50,7 @@ const routes: Routes = [
     path: 'noticia6',
     component: Noticia6Component,
   }
+  
 ];
 
 @NgModule({
